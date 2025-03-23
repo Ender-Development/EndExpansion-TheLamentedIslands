@@ -1,11 +1,13 @@
 package com.example.structure.util;
 
-public class ModReference {
-    public static final String MOD_ID ="ee";
-    public static final String NAME = "End Expansion";
-    public static final String CHANNEL_NETWORK_NAME = "End Expansion";
+import com.example.ee.Tags;
 
-    public static final String VERSION = "0.1.3";
+public class ModReference {
+    public static final String MOD_ID = Tags.MOD_ID;
+    public static final String NAME = Tags.MOD_NAME;
+    public static final String CHANNEL_NETWORK_NAME = Tags.MOD_NAME;
+
+    public static final String VERSION = Tags.VERSION;
 
     public static final String CLIENT_PROXY_CLASS = "com.example.structure.proxy.ClientProxy";
     public static final String COMMON_PROXY_CLASS = "com.example.structure.proxy.CommonProxy";

@@ -1,20 +1,12 @@
-[
-  {
-    "modid": "ee",
-    "name": "End Expansion",
-    "description": "A mod adding a plethora of content to the End with a new end game meaning of difficult bosses and unique items",
-    "version": "${version}",
-    "mcversion": "${mcversion}",
-    "url": "modpage",
-    "authorList": [
-      "FakeDrayn",
-      "UnOriginal"
-    ],
-    "credits": "UnseenDontRun",
-    "logoFile": "endexpansion.png",
-    "screenshots": [],
-    "dependencies": [
-      "Geckolib 3.0.31", "Nether-API"
-    ]
-  }
-]
+[{
+	"modid": "${mod_id}",
+	"name": "${mod_name}",
+	"version": "${mod_version}",
+	"mcversion": "1.12.2",
+	"description": "${mod_description}",
+	"authorList": ["${mod_authors}"],
+	"credits": "${mod_credits}",
+	"url": "${mod_url}",
+	"updateJSON": "${mod_update_json}",
+	"logoFile": "${mod_logo_path}"
+}]
